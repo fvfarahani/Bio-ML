@@ -22,9 +22,13 @@ The project plan establish a prediction model based on an [open database](https:
 
 **BIL:** amount of bilirubin in patient's blood
 
-**CHE:** amount of cholinesterase in patient's blood\\
-**CHOL:** amount of cholesterol in patient's blood\\
-**CREA:** amount of creatine in patient's blood\\
-**GGT:** amount of gamma-glutamyl transferase in patient's blood\\
-**PROT:** amount of protien in patient's blood\\
+**CHE:** amount of cholinesterase in patient's blood
+
+**CHOL:** amount of cholesterol in patient's blood
+
+**CREA:** amount of creatine in patient's blood
+
+**GGT:** amount of gamma-glutamyl transferase in patient's blood
+
+**PROT:** amount of protien in patient's blood
 
