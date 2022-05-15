@@ -191,7 +191,6 @@ def plot_learning_curve(dataset, estimator,modelname):
     fig.savefig("Figure/%s_Learning_curve.png" % modelname)
 
 
-
 def RandomForest(dataset):
     '''
     This function read a dataset and train it on random forest model.
