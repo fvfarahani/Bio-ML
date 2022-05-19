@@ -69,37 +69,18 @@ def update_output_div(age, sex, ALB, ALT, AST, BIL, CHE, CHOL, CREA, GGT, PROT,m
     model = joblib.load("Model/rf_model.joblib")
     # predict the heart failure prossibility of patient based on a chosen model
     prob = model.predict_proba(x_new)
-    if model_choice == 0:
-        modelname = "RandomFrest"
+    positive = prob[0][1]
+    negative = prob[0][0]
+    fptr = 'RandomFrest'
+    labels=['Predicted to have Hepatitis (Red color)','Predicted healthy(Green color)']
+    X=[positive,negative]  
+    colors = ['firebrick', 'olive']
+    fig = plt.figure(figsize=(8, 4))
+    plt.pie(X,labels=labels,autopct='%1.2f%%',colors = colors) 
+    plt.title("Predicted results: %s" % fptr)
 
-    name = prob_draw(prob[0][1],prob[0][0],modelname)
-
-    def prob_draw(positive,negative,fptr):
-        '''
-        This function draw the pie chart of prediction results 
-
-        **Parameters**
-            positive: *int*
-                The predicted probability of heart failure
-            negative: *int*
-                The predicted probability of being healthy
-            fptr: *str*
-                The name of the model
-            
-        **Return**
-            The name of the pie chart figure.
-        '''
-        labels=['Predicted to have heart failure(Red color)','Predicted healthy(Green color)']
-        X=[positive,negative]  
-        colors = ['firebrick', 'olive']
-        fig = plt.figure(figsize=(8, 4))
-        plt.pie(X,labels=labels,autopct='%1.2f%%',colors = colors) 
-        plt.title("Predicted results: %s" % fptr)
-        fig.savefig("Figure/%s_PieChart.png" % fptr)
-        return "Figure/%s_PieChart.png" % fptr
-
-    return name
+    return fig
 
 if __name__ == '__main__':
-    app.run_server(host='jupyter.biostat.jhsph.edu', port = os.getuid() + 30)
-    # app.run_server(debug=True, host = '127.0.0.1')
+    # app.run_server(host='jupyter.biostat.jhsph.edu', port = os.getuid() + 30)
+    app.run_server(debug=True, host = '127.0.0.1')
