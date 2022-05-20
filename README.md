@@ -37,4 +37,19 @@ The project plan establish a prediction model based on an [open database](https:
 ***The Labels***
 
 Here we shows the labels of our dataset. 
+
 <img width="500" height="200" src=https://github.com/fvfarahani/LeLiFa/blob/598561f1199ab07989c6fc6cfacc8018143db78e/Figure/Labels.png>
+
+
+## How can our dash web app help you predict the heart failure?
+***Here is the interface***
+
+
+## Contributors
+This project exists thanks to all the people who contribute. 
+ 
+Lelin Zhong: lzhong6@jhu.edu
+
+Lingzhu Shen: lshen26@jhu.edu, 
+
+Farzad Farahani: ffaraha2@jhu.edu
