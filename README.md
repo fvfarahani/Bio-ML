@@ -32,3 +32,9 @@ The project plan establish a prediction model based on an [open database](https:
 
 **PROT:** amount of protien in patient's blood
 
+<img width="900" height="400" src=https://github.com/fvfarahani/LeLiFa/blob/08f7dde69a22d2b2c460367c5426c9591cc68f0c/Figure/Features.png>
+
+
+## Labels
+
+Here are the labels for feature 
