@@ -49,7 +49,7 @@ Here we shows the labels of our dataset.
 
 ***ROC and PR Curve***
 
-<img width="500" height="300" src=https://github.com/fvfarahani/LeLiFa/blob/06e9dac7410b413d1cc51211016eb56eb5d392eb/Figure/roc.png>
+<img width="600" height="300" src=https://github.com/fvfarahani/LeLiFa/blob/06e9dac7410b413d1cc51211016eb56eb5d392eb/Figure/roc.png>
 
 ## How can our dash web app help you predict the heart failure?
 
