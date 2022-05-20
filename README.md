@@ -53,14 +53,14 @@ Here we shows the labels of our dataset.
 
 ## How can our dash web app help you predict the heart failure?
 
-1) Input a new patient information 
+***Input a new patient information***
 <img width="600" height="800" src=https://github.com/fvfarahani/LeLiFa/blob/600a29a8c016bfecdf091391f24aa5298bf0d808/Figure/dash1.png>
 
-2) Choose a model 
+***Choose a model ***
 
 <img width="500" height="170" src=https://github.com/fvfarahani/LeLiFa/blob/600a29a8c016bfecdf091391f24aa5298bf0d808/Figure/dash2.png>
 
-3) Obtain the prediction result
+***Obtain the prediction result***
 <img width="500" height="300" src=https://github.com/fvfarahani/LeLiFa/blob/600a29a8c016bfecdf091391f24aa5298bf0d808/Figure/dash3.png>
 
 
