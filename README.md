@@ -52,7 +52,7 @@ Here we shows the labels of our dataset.
 
 2) Choose a model 
 
-<img width="500" height="200" src=https://github.com/fvfarahani/LeLiFa/blob/600a29a8c016bfecdf091391f24aa5298bf0d808/Figure/dash2.png>
+<img width="500" height="170" src=https://github.com/fvfarahani/LeLiFa/blob/600a29a8c016bfecdf091391f24aa5298bf0d808/Figure/dash2.png>
 
 3) Obtain the prediction result
 <img width="500" height="300" src=https://github.com/fvfarahani/LeLiFa/blob/600a29a8c016bfecdf091391f24aa5298bf0d808/Figure/dash3.png>
