@@ -98,7 +98,6 @@ def update_output_div(age, sex, ALB, ALP, ALT, AST, BIL, CHE, CHOL, CREA, GGT, P
     labels=['Predicted to have Hepatitis (Red color)','Predicted healthy(Green color)']
     data = {'results': [prob[0][1],prob[0][0]]}
     df = pd.DataFrame.from_dict(data)
-    colors = ['firebrick', 'olive']
     fig = px.pie(df, values='results',names=labels, title='Predicted results based on %s model' % fptr, hole=.5,color=labels,
                 color_discrete_map={'Predicted to have Hepatitis (Red color)':'darkorange','Predicted healthy(Green color)':'lightgreen'},width=800, height=500)
 
