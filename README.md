@@ -1,5 +1,5 @@
 ## Background
-The project plan establish a prediction model based on an [open database](https://www.kaggle.com/fedesoriano/heart-failure-prediction) which contains  615 observations and 14 attributes of blood donors and Hepatitis C patients. Machine learning algorithms such as logistic regression, random forests, XGBoost are possible choices for model fitting. Here our group aims to build prediction web app based on those data which allow Hepatitis prediction for new variants of a patient. 
+The project plan establish a prediction model based on an [open database](https://www.kaggle.com/fedesoriano/heart-failure-prediction) which contains  615 observations and 14 attributes of blood donors and Hepatitis C patients. Machine learning algorithms such as logistic regression, random forests, support vector machine are possible choices for model fitting. Here our group aims to build prediction web app based on those data which allow Hepatitis prediction for new variants of a patient. 
 
 
 ## How our data look like ?
@@ -34,7 +34,7 @@ The project plan establish a prediction model based on an [open database](https:
 
 <img width="900" height="400" src=https://github.com/fvfarahani/LeLiFa/blob/08f7dde69a22d2b2c460367c5426c9591cc68f0c/Figure/Features.png>
 
+***The Labels***
 
-## Labels
-
-Here are the labels for feature 
+Here we shows the labels of our dataset. 
+<img width="900" height="400" src=https://github.com/fvfarahani/LeLiFa/blob/598561f1199ab07989c6fc6cfacc8018143db78e/Figure/Labels.png>
