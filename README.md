@@ -37,4 +37,4 @@ The project plan establish a prediction model based on an [open database](https:
 ***The Labels***
 
 Here we shows the labels of our dataset. 
-<img width="400" height="400" src=https://github.com/fvfarahani/LeLiFa/blob/598561f1199ab07989c6fc6cfacc8018143db78e/Figure/Labels.png>
+<img width="100" height="400" src=https://github.com/fvfarahani/LeLiFa/blob/598561f1199ab07989c6fc6cfacc8018143db78e/Figure/Labels.png>
