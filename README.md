@@ -38,7 +38,7 @@ The project plan establish a prediction model based on an [open database](https:
 
 Here we shows the labels of our dataset. 
 
-<img width="500" height="100" src=https://github.com/fvfarahani/LeLiFa/blob/598561f1199ab07989c6fc6cfacc8018143db78e/Figure/Labels.png>
+<img width="500" height="150" src=https://github.com/fvfarahani/LeLiFa/blob/598561f1199ab07989c6fc6cfacc8018143db78e/Figure/Labels.png>
 
 
 ## How can our dash web app help you predict the heart failure?
