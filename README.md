@@ -1,6 +1,17 @@
 ## Background
 The project plan establish a prediction model based on an [open database](https://www.kaggle.com/fedesoriano/heart-failure-prediction) which contains  615 observations and 14 attributes of blood donors and Hepatitis C patients. Machine learning algorithms such as logistic regression, random forests, support vector machine are possible choices for model fitting. Here our group aims to build prediction web app based on those data which allow Hepatitis prediction for new variants of a patient. 
 
+## Setup instructions
+1) git clone the repo
+2) do ```python pip install ``` to install the repo below:  
+
+   **Data Address:**  ```pandas```  ```numpy```  ```joblib``` ```sklearn```  
+
+   **Draw Figures:**  ```matplotlib``` ```plotly```
+
+   ***Web Interface:** ```dash``` 
+3) do ```python dashapp.py ``` to load the web app.
+4) Open a 
 
 ## How our data look like ?
 
