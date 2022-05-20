@@ -44,15 +44,17 @@ Here we shows the labels of our dataset.
 ## How does our model perform?
 
 ***Model Performance***
-<img width="500" height="300" src=https://github.com/fvfarahani/LeLiFa/blob/06e9dac7410b413d1cc51211016eb56eb5d392eb/Figure/performance.png>
+
+<img width="500" height="250" src=https://github.com/fvfarahani/LeLiFa/blob/06e9dac7410b413d1cc51211016eb56eb5d392eb/Figure/performance.png>
 
 ***ROC and PR Curve***
+
 <img width="500" height="300" src=https://github.com/fvfarahani/LeLiFa/blob/06e9dac7410b413d1cc51211016eb56eb5d392eb/Figure/roc.png>
 
 ## How can our dash web app help you predict the heart failure?
 
 1) Input a new patient information 
-<img width="500" height="800" src=https://github.com/fvfarahani/LeLiFa/blob/600a29a8c016bfecdf091391f24aa5298bf0d808/Figure/dash1.png>
+<img width="600" height="800" src=https://github.com/fvfarahani/LeLiFa/blob/600a29a8c016bfecdf091391f24aa5298bf0d808/Figure/dash1.png>
 
 2) Choose a model 
 
