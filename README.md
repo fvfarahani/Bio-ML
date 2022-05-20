@@ -54,6 +54,18 @@ Here we shows the labels of our dataset.
 
 ## How does our model perform?
 
+***Algorithms***
+
+**K-nearest Neighbors (KNN):** The KNN algorithm is a data classification approach that estimates the likelihood that a data point will belong to one of the available groups based on the data points that are closets to it. We set the number of neighbors to 1.
+
+**Logistic Regression (LR):** Logistic regression is used for modeling the probability of a discrete outcome given an input variable. We used L2 regularization, also known as ridge regression, which adds the “squared magnitude” of the coefficient to the loss function as the penalty term.
+
+**Gaussian Naive Bayes (GNB):** A Gaussian Naive Bayes algorithm is a special type of NB algorithm that is employed when the features have continuous values. Features are assumed to have a gaussian distribution. The var smoothing option was set to 1e-09, which is the percentage of the largest variance of all features that is applied to variances for computation stability.
+
+**Random Forest (RF):** A random forest is a meta estimator that fits multiple decision tree classifiers on different sub-samples of the dataset and employs averaging to increase the predictive accuracy and control over-fitting. We used 10 trees (estimators) in the forest.
+
+**Support Vector Machine (SVM):** We performed grid search to optimize hyperparameters, and selected "rbf" as kernel and set the number of C to 1.
+
 ***Model Performance***
 
 <img width="500" height="250" src=https://github.com/fvfarahani/LeLiFa/blob/06e9dac7410b413d1cc51211016eb56eb5d392eb/Figure/performance.png>
@@ -65,9 +77,10 @@ Here we shows the labels of our dataset.
 ## How can our dash web app help you predict the heart failure?
 
 ***Input a new patient information***
+
 <img width="600" height="800" src=https://github.com/fvfarahani/LeLiFa/blob/600a29a8c016bfecdf091391f24aa5298bf0d808/Figure/dash1.png>
 
-***Choose a model ***
+***Choose a model***
 
 <img width="500" height="170" src=https://github.com/fvfarahani/LeLiFa/blob/600a29a8c016bfecdf091391f24aa5298bf0d808/Figure/dash2.png>
 
