@@ -44,16 +44,14 @@ Here we shows the labels of our dataset.
 ## How does our model perform?
 
 
+## How can our dash web app help you predict the heart failure?
+
+
 1) Input a new patient information and choose a model 
 <img width="200" height="600" src=https://github.com/lelinz174125/SC_final_project/blob/cc897b481b7660ae6cc51be571370927b215f0f2/Figure/gui_interface1.png>
 
 2) Obtain a prediction result
 <img width="500" height="325" src=https://github.com/lelinz174125/SC_final_project/blob/cc897b481b7660ae6cc51be571370927b215f0f2/Figure/gui_interface3.png>
-
-
-## How can our dash web app help you predict the heart failure?
-
-<img width="500" height="150" src=https://github.com/fvfarahani/LeLiFa/blob/598561f1199ab07989c6fc6cfacc8018143db78e/Figure/Labels.png>
 
 
 
