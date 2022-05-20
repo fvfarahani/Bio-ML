@@ -9,7 +9,7 @@ The project plan establish a prediction model based on an [open database](https:
 
    **Draw Figures:**  ```matplotlib``` ```plotly```
 
-   ***Web Interface:** ```dash``` ```os```
+   **Web Interface:** ```dash``` ```os```
 3) do ```python dashapp.py ``` to run the web app locally. 
 
 
