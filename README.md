@@ -51,6 +51,10 @@ Here we shows the labels of our dataset.
 
 <img width="500" height="150" src=https://github.com/fvfarahani/LeLiFa/blob/598561f1199ab07989c6fc6cfacc8018143db78e/Figure/Labels.png>
 
+***Data preprocessing***
+1) Remove missing values, change attribute values
+2) Relief data imbalance problem through integrating all the diseases labels
+2) data normalization and regularization
 
 ## How does our model perform?
 
