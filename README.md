@@ -97,5 +97,7 @@ Here we shows the labels of our dataset.
 This project exists thanks to all the people who contribute. 
  
 Farzad Farahani: ffaraha2@jhu.edu
+
 Lelin Zhong: lzhong6@jhu.edu
-Lingzhu Shen: lshen26@jhu.edu, 
+
+Lingzhu Shen: lshen26@jhu.edu
